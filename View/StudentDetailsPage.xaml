@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IvisMaui.StudentDetailsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodel="clr-namespace:IvisMaui.ViewModel"
+    Title="{Binding Student.FullName}"
+    x:DataType="viewmodel:StudentDetailsViewModel">
+    
+    <ScrollView BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
+        <VerticalStackLayout>
+            <Grid ColumnDefinitions="*,Auto,*" RowDefinitions="140, Auto">
+                <BoxView
+                    Grid.ColumnSpan="3"
+                    BackgroundColor="{StaticResource Primary}"
+                    HeightRequest="130"
+                    HorizontalOptions="FillAndExpand" />
+                <Frame
+                    Grid.RowSpan="2"
+                    Grid.Column="1"
+                    Margin="0,10,0,0"
+                    HeightRequest="160"
+                    WidthRequest="160"
+                    HorizontalOptions="Center" 
+                    Padding="0"
+                    IsClippedToBounds="True"
+                    CornerRadius="80">
+                    <Image
+                        Aspect="AspectFill"
+                        HeightRequest="160"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Source="{Binding Student.Image}"
+                        WidthRequest="160"/>
+                </Frame>
+            </Grid>
+            <VerticalStackLayout Padding="10" Spacing="10">
+                <Label Style="{StaticResource MediumLabel}" Text="{x:Binding Student.FullName, StringFormat='Name: {0}'}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Student.Address, StringFormat='Address: {0}'}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Student.Grade, StringFormat='Grade: {0}'}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Student.Phone, StringFormat='Phone: {0}'}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Student.Intersection1, StringFormat='Intersection 1: {0}'}" />
+                <Label Style="{StaticResource MediumLabel}" Text="{Binding Student.Intersection2, StringFormat='Intersection 2: {0}'}" />
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

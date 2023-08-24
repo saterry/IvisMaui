@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IvisMaui.View.RoutePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:IvisMaui.Models"
+    xmlns:viewmodel="clr-namespace:IvisMaui.ViewModel"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    ios:Page.UseSafeArea="True"
+    Title="{Binding Busnumber,StringFormat='Bus {0} Routes'}"
+    x:DataType="viewmodel:RoutesViewModel">
+    <!--{Binding Busnumber,StringFormat='Bus {0} Routes'}-->
+    <Grid
+        ColumnDefinitions="*"
+        ColumnSpacing="5"
+        RowDefinitions="*"
+        RowSpacing="0"
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
+
+        <RefreshView
+            Grid.ColumnSpan="2"
+            IsRefreshing="{Binding IsRefreshing}">
+            <Grid>
+                <CollectionView
+                    ItemsSource="{Binding Routes}"
+                    BackgroundColor="Transparent"
+                    SelectionMode="None">
+                    <CollectionView.Header>
+                        <StackLayout>
+                            <Grid BackgroundColor="LightYellow">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="400" />
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0" Text="Route" TextColor="Black" FontAttributes="Bold" FontSize="18" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                            </Grid>
+                        </StackLayout>
+                    </CollectionView.Header>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Route">
+                            <Grid Padding="0">
+                                <Frame HeightRequest="30" Style="{StaticResource CardView}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:RoutesViewModel}}, Path=GoToBusStopsCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="0"  Margin="15,3" ColumnDefinitions="400">
+                                        <Label  Style="{StaticResource MediumLabel}" Grid.Column="0" Text="{Binding Description}" />
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </RefreshView>
+
+        <ActivityIndicator
+            Grid.RowSpan="1"
+            Grid.ColumnSpan="2"
+            HorizontalOptions="FillAndExpand"
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="CenterAndExpand" />
+    </Grid>
+</ContentPage>

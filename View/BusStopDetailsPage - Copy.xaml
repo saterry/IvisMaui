@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="IvisMaui.View.BusStopDetailsPage1"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:IvisMaui.Model"
+    xmlns:viewmodel="clr-namespace:IvisMaui.ViewModel"
+    xmlns:ios="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific;assembly=Microsoft.Maui.Controls"
+    ios:Page.UseSafeArea="True"
+    Title="Bus Stops"
+    x:DataType="viewmodel:BusStopDetailsViewModel">
+    <!--ColumnDefinitions="95,120,100,115,30,*"-->
+    <!--ColumnDefinitions="205,220"-->
+    <!--BackgroundColor="{StaticResource Primary}"-->
+
+    <HorizontalStackLayout Margin="2" HorizontalOptions="Center">
+
+            <VerticalStackLayout>
+            <!--<Grid ColumnDefinitions="*,Auto,*" RowDefinitions="160, Auto">-->
+
+                <!--<Grid ColumnDefinitions="*" RowDefinitions="160">-->
+                <BoxView
+                     Color="Red"
+                    Grid.ColumnSpan="1"
+                    HeightRequest="160"
+                    HorizontalOptions="FillAndExpand" />
+                <!--<Frame
+                    Grid.RowSpan="2"
+                    Grid.Column="1"
+                    Margin="0,80,0,0"
+                    HeightRequest="160"
+                    WidthRequest="160"
+                    HorizontalOptions="Center" 
+                    Padding="0"
+                    IsClippedToBounds="True"
+                    CornerRadius="80">-->
+                    <Image
+                        Aspect="AspectFill"
+                        HeightRequest="160"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Source="{Binding Studentstopdetail.Image}"
+                        WidthRequest="160"/>
+                <!--</Frame>-->
+                <!--</Grid>-->
+                
+                <VerticalStackLayout Padding="10" Spacing="10">
+
+                    <Label Text="{Binding Studentstopdetail.Address}" />
+                    <Label Style="{StaticResource MediumLabel}" Text="{Binding Studentstopdetail.Address, StringFormat='Address: {0}'}" />
+                    <Label Style="{StaticResource SmallLabel}" Text="{Binding Studentstopdetail.Grade, StringFormat='Grade: {0}'}" />
+                    <Label Style="{StaticResource SmallLabel}" Text="{Binding Studentstopdetail.Phone, StringFormat='Phone: {0}'}" />
+                </VerticalStackLayout>
+            </VerticalStackLayout>
+
+        <Grid
+        ColumnDefinitions="*,*,*"
+        ColumnSpacing="5"
+        RowDefinitions="*"
+        RowSpacing="0"
+        BackgroundColor="{AppThemeBinding Light={StaticResource LightBackground}, Dark={StaticResource DarkBackground}}">
+        <!--Command="{Binding GetStudentsCommand}"-->
+
+        <RefreshView
+            Grid.ColumnSpan="3"
+            IsRefreshing="{Binding IsRefreshing}">
+            <Grid>
+                <CollectionView
+                    ItemsSource="{Binding StudentStopDetails}"
+                    BackgroundColor="Transparent"
+                    SelectionMode="None">
+                    <!--<CollectionView.EmptyView>
+                        <StackLayout Padding="100">
+                            <Image
+                                HorizontalOptions="CenterAndExpand"
+                                Source="nodata.png"
+                                VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </CollectionView.EmptyView>
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout  Orientation="Horizontal" Span="3"/>
+                    </CollectionView.ItemsLayout>-->
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Studentstopdetail">
+                            <Grid Padding="0">
+                                <Frame HeightRequest="30" Style="{StaticResource CardView}">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer 
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:BusStopDetailsViewModel}}, Path=SetStudentDetailsCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Frame.GestureRecognizers>
+                                    <!--<Grid Padding="0" ColumnDefinitions="95,120,150,115,30,*">-->
+                                    <Grid Padding="0" ColumnDefinitions="95,120,120">
+                                        <Label Margin="15,3" Style="{StaticResource MediumLabel}" Grid.Column="0" Text="{Binding FullName}" />
+                                        <Label Margin="15,3" Style="{StaticResource MediumLabel}" Grid.Column="1" Text="{Binding Grade}" />
+                                        <Label Margin="15,3" Style="{StaticResource MediumLabel}" Grid.Column="2" Text="{Binding StatusDisplay}" />
+                                    </Grid>
+                                </Frame>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Grid>
+        </RefreshView>
+
+        <ActivityIndicator
+            Grid.RowSpan="1"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="FillAndExpand"
+            IsRunning="{Binding IsBusy}"
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="CenterAndExpand" />
+        </Grid>
+    </HorizontalStackLayout>
+</ContentPage>

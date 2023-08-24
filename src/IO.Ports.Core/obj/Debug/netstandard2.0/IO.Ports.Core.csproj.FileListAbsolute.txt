@@ -1,0 +1,24 @@
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.deps.json
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.deps.json
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.deps.json
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports.Core\obj\Debug\netstandard2.0\IO.Ports.Core.pdb

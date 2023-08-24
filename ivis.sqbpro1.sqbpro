@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/Shawn/source/repos/IvisMaui/ivis.db" readonly="0" foreign_keys="" case_sensitive_like="" temp_store="" wal_autocheckpoint="" synchronous=""/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1538"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="0,0:"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;District&quot; (
+	&quot;Id&quot; INTEGER,
+	&quot;DistrictName&quot; TEXT,
+	&quot;Address&quot;	TEXT, 
+	&quot;City&quot;	TEXT, 
+	&quot;State&quot;	TEXT, 
+	&quot;Zip&quot;	TEXT, 
+	&quot;Phone&quot;	TEXT, 
+	&quot;CreateDate&quot;	TEXT, 
+	&quot;ContactPhone1&quot;	TEXT, 
+	&quot;ContactEmail1&quot;	TEXT, 
+	&quot;Status&quot;		INTEGER,
+	PRIMARY KEY (&quot;Id&quot;)
+);</sql><sql name="SQL 2">Insert into &quot;District&quot; (&quot;DistrictName&quot;, &quot;Address&quot;, &quot;City&quot;, &quot;State&quot;, &quot;Zip&quot;, &quot;Phone&quot;,&quot;CreateDate&quot;, &quot;ContactPhone1&quot;, &quot;ContactEmail1&quot;, &quot;Status&quot;)
+Values (&quot;JCPS&quot;, &quot;3331 Newburg Rd&quot;, &quot;Louisville&quot;, &quot;KY&quot;, &quot;40218&quot;, &quot;(502) 555-1212&quot;, &quot;1/1/2023&quot;, &quot;(502) 555-1212&quot;, &quot;saterry@gmail.com&quot;, 1);</sql><sql name="SQL 10">select * from bus
+
+Insert into &quot;Bus&quot; (&quot;BusId&quot;, &quot;Number&quot;, &quot;Compound&quot;, &quot;Driver&quot;, &quot;Monitor&quot;, &quot;Other&quot;)
+Values (&quot;1234&quot;, &quot;2024&quot;, 1, &quot;John Dutton&quot;, &quot;&quot;, &quot;&quot;);
+</sql><sql name="SQL 5">select * from StatusQueue</sql><current_tab id="3"/></tab_sql></sqlb_project>

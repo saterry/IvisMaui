@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IvisMaui
+build_property.ProjectDir = C:\Users\Shawn\source\repos\IvisMaui\
+
+[C:/Users/Shawn/source/repos/IvisMaui/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/BusStopDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.BusStopDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BusStopDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BusStopDetailsPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/BusStopPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.BusStopPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BusStopPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BusStopPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/MessageDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.MessageDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MessageDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MessageDetailsPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/RoutePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.RoutePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\RoutePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\RoutePage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/SelectBusDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.SelectBusDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SelectBusDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SelectBusDetailsPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/SelectBusPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.SelectBusPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SelectBusPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SelectBusPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/StudentDetailsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.StudentDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StudentDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StudentDetailsPage.xaml
+
+[C:/Users/Shawn/source/repos/IvisMaui/View/StudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = IvisMaui.View.StudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StudentPage.xaml

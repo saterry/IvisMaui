@@ -1,0 +1,8 @@
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\bin\Debug\netstandard2.0\NMEAParser.deps.json
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\bin\Debug\netstandard2.0\NMEAParser.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\bin\Debug\netstandard2.0\NMEAParser.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\obj\Debug\netstandard2.0\NMEAParser.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\obj\Debug\netstandard2.0\NMEAParser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\obj\Debug\netstandard2.0\NMEAParser.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\obj\Debug\netstandard2.0\NMEAParser.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\NMEAParser\obj\Debug\netstandard2.0\NMEAParser.pdb

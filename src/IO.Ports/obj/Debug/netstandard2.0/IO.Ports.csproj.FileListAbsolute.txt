@@ -1,0 +1,39 @@
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.deps.json
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CopyComplete
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui - 012223\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.deps.json
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CopyComplete
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui - 030423\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.deps.json
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Abstractions.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\bin\Debug\netstandard2.0\IO.Ports.Core.pdb
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.AssemblyReference.cache
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CoreCompileInputs.cache
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.csproj.CopyComplete
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.dll
+C:\Users\Shawn\source\repos\IvisMaui\src\IO.Ports\obj\Debug\netstandard2.0\IO.Ports.pdb
